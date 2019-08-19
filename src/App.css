@@ -1,0 +1,159 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+
+.App {
+  background-color: white;
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a {
+  font-weight: 800;
+  color: #007effe0;
+  text-decoration: none;
+}
+
+.appHeader {
+  background-color: #007effe0;
+  width: 100%;
+  padding: 10px 0px 0px 10px;
+  border: 1px solid #007effe0;
+  height: 40px;
+}
+
+.btn {
+  background-color: #007effe0;
+  color: white;
+  padding: 10px;
+  align-self: center;
+  border: 2px solid #007effe0;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 700;
+  position: absolute;
+  left: 45%;
+}
+
+.btn-forked { 
+  position: inherit;
+  float: right;
+  margin-right: 12px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 2px;
+  height: 85px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding: 10px 0px 10px 20px;
+  text-overflow: ellipsis;
+}
+
+.description {
+  padding: 4px 0px 4px 0px;
+}
+
+.stars {
+  border: 1px solid grey;
+  border-top-style: none;
+  border-bottom-style: none;
+  width: 15%;
+}
+
+.license {
+  width: 15%;
+}
+
+.results {
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+}
+
+input {
+  margin: 5px 0px 15px 10px;
+  padding: 6px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+}
+
+button:disabled {
+  border: 1px solid red;
+}
+
+label {
+  margin-left: 6px;
+}
+
+select {
+  margin: 0px 0px 0px 6px;
+}
+
+.title {
+  text-align: center;
+  padding: 30px 0px 0px 30px;
+}
+
+hr {
+  width: 95%;
+
+}
+
+h4 {
+  font-size: .8em;
+}
+
+form {
+  align-self: center;
+  width: 35%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.formBox {
+  display: inline;
+}
+
+.error {
+  color:#db2269;
+  font-size: 0.65em;
+  display: relative;
+}
+
+
+.footer {
+  font-size: 14px;
+  color: white;
+  background-color: #007effe0;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.keyword {
+  margin: 30px;
+}
+
+.form-group2 {
+  margin: 30px;
+}
+
+.titleLogo {
+  height: 20px;
+  width: 60px;
+  margin-left: 25%;
+  padding-top: 4px;
+}
+
